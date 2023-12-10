@@ -19,7 +19,7 @@ To train and evaluate the FER system, we use the [fer-2013](https://www.kaggle.c
 ## Demo of FER system
 
 _Here is the demo of the FER system._
-![screenshot](Screenshot-2.png)
+![screenshot](static/Screenshot-2.png)
 
 ## Requirements
 
@@ -88,4 +88,4 @@ Or by using a live camera:
 
 Here are some test examples:
 
-![screenshot](Screenshot-1.png)
+![screenshot](static/Screenshot-1.png)

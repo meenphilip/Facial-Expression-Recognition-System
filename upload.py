@@ -15,7 +15,7 @@ classifier = load_model('./Emotion_Detection.h5')
 class_labels = ['Angry', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
 # Specify the path to the image you want to test
-image_path = 'facial-expressions.jpg'
+image_path = 'static/facial-expressions.jpg'
 
 # Load the image
 frame = cv2.imread(image_path)
