@@ -1,0 +1,2 @@
+**Project Objective:**
+The primary objectives of this project encompass the development of an extensive facial expression recognition framework. The project entails the deployment of machine learning algorithms designed to not only identify an individual's facial expression but also to classify these expressions into a range of emotional states, including but not limited to surprise, neutrality, and happiness.
