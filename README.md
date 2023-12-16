@@ -35,29 +35,37 @@ The FER system leverages several powerful Python libraries. Make sure you have t
 
 Install these libraries using one of the following command:
 
-    `pip install numpy pandas matplotlib tensorflow opencv-python scikit-learn`
+    pip install numpy pandas matplotlib tensorflow opencv-python scikit-learn
 
 OR
 
-    `pipenv install numpy pandas matplotlib tensorflow opencv-python scikit-learn`
+    pipenv install numpy pandas matplotlib tensorflow opencv-python scikit-learn
+
+OR
+
+    pip install -r requirements.txt
 
 ## Installation Instructions
 
 1.  Clone the repository:
 
-        `git clone https://github.com/meenphilip/Facial-Expression-Recognition-System.git`
+        git clone https://github.com/meenphilip/Facial-Expression-Recognition-System.git
 
 2.  Navigate to the project directory:
 
-        `cd Facial-Expression-Recognition-System`
+        cd Facial-Expression-Recognition-System
 
 3.  Install the required Python libraries (consider using a virtual environment):
 
-        ` pip install numpy pandas matplotlib tensorflow opencv-python scikit-learn`
+        pip install -r requirements.txt
 
     OR
 
-         `pipenv install numpy pandas matplotlib tensorflow opencv-python scikit-learn`
+         pip install numpy pandas matplotlib tensorflow opencv-python scikit-learn
+
+    OR
+
+         pipenv install numpy pandas matplotlib tensorflow opencv-python scikit-learn
 
 4.  Download the fer-2013 dataset and place it in the media directory within the project.
 5.  Run the FER system:
@@ -72,19 +80,19 @@ OR
 
 To train the model use the following command:
 
-    ` python train.py`
+     python train.py
 
 The model can make predictions on saved images by providing the image path using the following command:
 
-    ` python upload.py`
+     python upload.py
 
 It can also predict on saved videos:
 
-      ` python upload.py`
+       python upload.py
 
 Or by using a live camera:
 
-    ` python upload.py`
+     python upload.py
 
 Here are some test examples:
 
